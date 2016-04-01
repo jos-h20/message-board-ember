@@ -1,13 +1,11 @@
 body {
   background-color: #36454f;
   background-image: url("../images/background.jpg");
-  /*background-repeat: no-repeat;*/
 }
 .header {
   margin-top: 100px;
 }
 .jumbotron {
-
   padding-left: 20px;
   background-color: #36454f;
   background-repeat: no-repeat;
@@ -81,9 +79,7 @@ label {
   color: #36454f;
 }
 .del {
-  /*margin-bottom: 50px;*/
-float: right;
-
+  float: right;
 }
 .ques {
   margin-right: 10px;
@@ -93,10 +89,8 @@ float: right;
   background-color: gray;
   color: #36454f;
   width: 275px;
-  height: 75px;
+  min-height: 75px;
   font-size: 30px;
-  /*margin-left: 450px;*/
-  /*margin-top: -80px;*/
   padding-top: 10px;
   border-radius: 8px;
   margin-bottom: 20px;
