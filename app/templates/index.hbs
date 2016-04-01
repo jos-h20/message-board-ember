@@ -1,1 +1,9 @@
-{{outlet}}
+
+<h1> Welcome to Grapple!</h1>
+
+Users post hard questions; other users attempt to answer.  Good luck!  Thanks for participating!
+<ul>
+  {{#each model.questions as |question|}}
+     {{question-tile question=question}}
+  {{/each}}
+</ul>
