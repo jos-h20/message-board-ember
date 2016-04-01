@@ -1,7 +1,9 @@
+<div class="container question">
 
-<h3>Here's the rest of {{model.author}}'s question</h3>
-{{edit-question question=model edit="edit"}}
+  <h3>Here's the rest of {{model.author}}'s question</h3>
 
-{{question-details question=model destroyQuestion="destroyQuestion" deleteAnswer="deleteAnswer"}}
+  {{question-details question=model destroyQuestion="destroyQuestion" deleteAnswer="deleteAnswer" edit="edit"}}
 
-{{new-answer question=model saveAnswer="saveAnswer"}}
+
+  {{new-answer question=model saveAnswer="saveAnswer"}}
+</div>

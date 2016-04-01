@@ -1,7 +1,7 @@
 {{#if addNewAnswer}}
 <section class="">
   <h3>New Answer:</h3>
-  <div class="container">
+  <div>
     <form>
       <div class="form-group">
         <label for="author">Name:</label>
@@ -19,7 +19,7 @@
 {{else}}
 <div class="container">
   <div class="answer text-center">
-    <h4 class="text-center" {{action 'answerFormShow'}}> Answer {{question.author}}</h4>
+    <p class="text-center" {{action 'answerFormShow'}}> <em>Answer {{question.author}}</em></p>
   </div>
 </div>
 {{/if}}

@@ -1,2 +1,5 @@
-{{answer.author}}
-{{answer.answer}}
+<div class="answers">
+  <button class="btn ans"{{action 'deleteAnswer' answer}}>Delete Answer</button>
+  <h4>Author: {{answer.author}}</h4>
+  <h3>Answer:<em> {{answer.answer}}</em></h3>
+</div>
