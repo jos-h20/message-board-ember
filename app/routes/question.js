@@ -18,6 +18,7 @@ import Ember from 'ember';
   destroyQuestion(question) {
     question.destroyRecord();
     this.transitionTo('index');
-  }
+  },
+
 }
 });
