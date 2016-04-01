@@ -1,0 +1,14 @@
+body {
+  background-color: lightblue;
+}
+
+.navbar {
+    background-color: darkgray;
+    color: black;
+}
+.navbar-toggle {
+  background-color: black;
+}
+.navbar-header {
+  color: black;
+}
