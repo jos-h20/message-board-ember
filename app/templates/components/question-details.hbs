@@ -2,6 +2,10 @@
 {{question.content}}
 {{question.notes}}.
 <br>
-
-
 <button {{action 'delete' question}}>Delete</button>
+
+{{#each question.answers as |answer|}}
+  {{answer-tile answer=answer}}
+
+  <button class="btn"{{action 'deleteAnswer' answer}}>Delete</button>
+{{/each}}

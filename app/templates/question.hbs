@@ -2,5 +2,6 @@
 <h2>More information about {{model.author}}'s {{model.content}}</h2>
 {{edit-question question=model edit="edit"}}
 
-{{question-details question=model destroyQuestion="destroyQuestion"}}
+{{question-details question=model destroyQuestion="destroyQuestion" deleteAnswer="deleteAnswer"}}
 {{new-question saveQuestion="saveQuestion"}}
+{{new-answer question=model saveAnswer="saveAnswer"}}
