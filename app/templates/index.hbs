@@ -1,10 +1,14 @@
+<div class="container index">
+  <div class="welcome">
+    <h2> Welcome to Grapple!</h2>
+    <h4>Hard questions get posted; the brave try to answer them.  </h4>
+  </div>
+  <h2>Questions:</h2>
+  <ul>
+    {{#each model.questions as |question|}}
+    {{question-tile question=question}}
+    {{/each}}
+  </ul>
+  {{new-question saveQuestion="saveQuestion"}}
 
-<h1> Welcome to Grapple!</h1>
-
-Users post hard questions; other users attempt to answer.  Good luck!  Thanks for participating!
-<ul>
-  {{#each model.questions as |question|}}
-     {{question-tile question=question}}
-  {{/each}}
-</ul>
-{{new-question saveQuestion="saveQuestion"}}
+</div>

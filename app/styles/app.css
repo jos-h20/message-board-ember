@@ -1,14 +1,91 @@
 body {
-  background-color: lightblue;
+  background-color: #36454f;
+  background-image: url("../images/background.jpg");
+  /*background-repeat: no-repeat;*/
+}
+.header {
+  margin-top: 100px;
+}
+.jumbotron {
+
+  padding-left: 20px;
+  background-color: #36454f;
+  /*background-image: url('../images/header2.jpg');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: lightgray;
+  height: 300px;
 }
 
+.index {
+  background-color: #36454f;
+  color: lightgray;
+  max-width: 800px;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.welcome {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.questions {
+  background-color: lightgray;
+  border: lightblue solid 2px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.btn {
+  background-color: lightgray;
+  color: #36454f;
+  height: 50px;
+  font-size: 21px;
+}
+.form-group {
+  font-size: 21px;
+}
+input {
+  width: 75%;
+  height: 50px;
+  float: right;
+  color: #36454f;
+}
+textarea {
+  width: 75%;
+  height: 50px;
+  float: right;
+  color: #36454f;
+}
+label {
+  margin-top: 30px;
+}
+.saveQuestion {
+  margin-top: 20px;
+  width: 150px;
+}
 .navbar {
-    background-color: darkgray;
-    color: black;
+    display: flex;
+    background-color: black;
+    color: lightgray;
 }
-.navbar-toggle {
-  background-color: black;
-}
+
 .navbar-header {
-  color: black;
+  float: left;
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.navbar-brand{
+ float: none;
+  font-size: 1.7em;
+}
+.footer-link {
+  text-align: center;
+  font-size: 1.7em;
+  padding-top: 5px;
+}
+.navbar-fixed-bottom {
+  margin-top: 300px;
 }

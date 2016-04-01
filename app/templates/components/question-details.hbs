@@ -1,11 +1,11 @@
-{{question.author}}
-{{question.content}}
-{{question.notes}}.
+<h3>Author: {{question.author}}</h3>
+<h4>Question: {{question.content}}</h4>
+<h5>Notes: {{question.notes}}.</h5>
 <br>
-<button {{action 'delete' question}}>Delete</button>
+<button {{action 'delete' question}}>Delete Question</button>
 
 {{#each question.answers as |answer|}}
   {{answer-tile answer=answer}}
 
-  <button class="btn"{{action 'deleteAnswer' answer}}>Delete</button>
+  <button class="btn"{{action 'deleteAnswer' answer}}>Delete Answer</button>
 {{/each}}

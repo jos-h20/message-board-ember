@@ -1,16 +1,16 @@
 {{#if newQuestionForm}}
-<h2> Add a new question </h2>
+<h2> Add a New Question </h2>
   <form>
     <div class='form-group'>
       <label for='author'>Author:</label>
-      {{input value=author id='author'}}
+      {{input value=author id='author'}}<br>
       <label for='content'>Content:</label>
-      {{textarea value=content id='content'}}
+      {{textarea value=content id='content'}}<br>
       <label for='notes'>Notes:</label>
       {{input value=notes id='notes'}}
     </div>
-    <button class="btn" {{action 'saveQuestion'}}>Save</button>
+    <button class="btn saveQuestion" {{action 'saveQuestion'}}>Save</button>
   </form>
 {{else}}
-<button class="btn" {{action 'newQuestionForm'}}>Add new question</button>
+<button class="btn" {{action 'newQuestionForm'}}>Ask A Question</button>
 {{/if}}

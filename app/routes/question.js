@@ -26,14 +26,12 @@ import Ember from 'ember';
     newAnswer.save().then(function() {
       return question.save();
     });
-    console.log(params.question);
     this.transitionTo('question', params.question);
 
   },
   deleteAnswer(answer) {
     answer.destroyRecord();
-    this.transitionTo('question', params.question);
+    this.transitionTo('question');
   }
-
 }
 });
