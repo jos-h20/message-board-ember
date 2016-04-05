@@ -1,53 +1,48 @@
-# Message-board
+# _Grapple_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _Allows users to post questions and answer questions, 4.1.2016_
 
-## Prerequisites
+#### By _**Josh Overly**_
 
-You will need the following things properly installed on your computer.
+## Description
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+Users can enter questions. They can edit and delete the questions they entered. Users can also answer other users' questions.  They can edit and delete their answers._
 
-## Installation
+## Setup/Installation Requirements
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+### You will need git, npm, Ember CLI, bower, and PhantomJS to be installed on your computer.
+#### Here are links:
+* npm https://www.npmjs.com/
+* bower http://bower.io/
+* git https://git-scm.com/
+* Ember CLI http://ember-cli.com/
+* PhantomJS http://phantomjs.org/
 
-## Running / Development
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+### After npm and bower are functioning on your machine:
+* Open the terminal on your computer
+* Go to link: https://github.com/jos-h20/meal_tracker_angular2
+* Copy it.
+* In your terminal, change your directory to desktop, type "git clone" and paste the link in.
+* The folder meal_tracker will download on your desktop.
+* Change your directory to meal_tracker.
+* Type in "npm install".
+* Type in "bower install".
+* After both are installed, type "ember serve".
+* The server will appear in your web browser at "http://localhost:4200".
 
-### Code Generators
+## Known Bugs
 
-Make use of the many generators for code, try `ember help generate` for more details
+_No known bugs._
 
-### Running Tests
+## Support and contact details
 
-* `ember test`
-* `ember test --server`
+_email: joshoverly@student.com_
 
-### Building
+## Technologies Used
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+_Bootstrap, Npm, Bower, Ember, JavaScript, Firebase_
 
-### Deploying
+### License
 
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Copyright (c) 2016 **_OverlyDev Licensing MIT_**

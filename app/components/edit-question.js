@@ -4,7 +4,7 @@ export default Ember.Component.extend({
   editQuestionForm: false,
   actions: {
     editQuestionForm() {
-      this.set('editQuestionForm', true)
+      this.set('editQuestionForm', true);
     },
     edit(question) {
       var params = {
