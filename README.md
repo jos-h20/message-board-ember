@@ -1,31 +1,31 @@
 # _Grapple_
 
-#### _Allows users to post questions and answer questions, 4.1.2016_
+#### _Allows users to post questions and answer questions, 4.8.2016_
 
 #### By _**Josh Overly**_
 
 ## Description
 
-Users can enter questions. They can edit and delete the questions they entered. Users can also answer other users' questions.  They can edit and delete their answers._
+Users can enter questions. They can search questions by category. They can edit and delete the questions they entered. Users can also answer other users' questions.  They can edit and delete their answers._
 
 ## Setup/Installation Requirements
 
-### You will need git, npm, Ember CLI, bower, and PhantomJS to be installed on your computer.
+### You will need git, npm, Ember CLI, and bower to be installed on your computer.
 #### Here are links:
 * npm https://www.npmjs.com/
 * bower http://bower.io/
 * git https://git-scm.com/
 * Ember CLI http://ember-cli.com/
-* PhantomJS http://phantomjs.org/
+
 
 
 ### After npm and bower are functioning on your machine:
 * Open the terminal on your computer
-* Go to link: https://github.com/jos-h20/meal_tracker_angular2
+* Go to link: https://github.com/jos-h20/message-board-ember
 * Copy it.
 * In your terminal, change your directory to desktop, type "git clone" and paste the link in.
-* The folder meal_tracker will download on your desktop.
-* Change your directory to meal_tracker.
+* The folder message-board-ember will download on your desktop.
+* Change your directory to message-board-ember.
 * Type in "npm install".
 * Type in "bower install".
 * After both are installed, type "ember serve".
