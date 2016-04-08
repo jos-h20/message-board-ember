@@ -10,6 +10,7 @@ export default Ember.Component.extend({
       var params = {
         author: this.get('author'),
         answer: this.get('answer'),
+        date_added: Date.now(),
         question: this.get('question')
       };
       this.set('addNewAnswer', false);
