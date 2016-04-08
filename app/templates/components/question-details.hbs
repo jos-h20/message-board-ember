@@ -6,9 +6,10 @@
     <h3>Question: {{question.content}}</h3>
     <h4>Notes: {{question.notes}}.</h4>
     <h4>Date Added: {{format-time queston.date_added}}</h4>
+    <p><button {{action 'addToFavorites' question}}>Add to Favorites</button></p>
   </div>
 
 
-  {{#each question.answers as |answer|}}
+  {{#each sortedAnswers as |answer|}}
   {{answer-tile answer=answer deleteAnswer="deleteAnswer"}}
   {{/each}}
