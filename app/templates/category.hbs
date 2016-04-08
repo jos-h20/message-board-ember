@@ -1,10 +1,16 @@
-<div class="container index">
-  <h2>Questions:</h2>
-  <ul>
-    {{#each model as |question|}}
-    {{question-tile question=question}}
-    {{/each}}
-  </ul>
-  {{new-question saveQuestion="saveQuestion"}}
-
-</div>
+{{#if model}}
+  <div class="container index">
+    <h2>Questions:</h2>
+    <ul>
+      {{#each model as |question|}}
+      {{question-tile question=question}}
+      {{/each}}
+    </ul>
+    {{#link-to 'index'}}<button class="btn">Back to Categories</button>{{/link-to}}
+  </div>
+{{else}}
+  <div class="container index">
+    <h2>There aren't any questions for this category.</h2>
+    {{#link-to 'index'}}<button class="btn">Back to Categories</button>{{/link-to}}
+  </div>
+{{/if}}

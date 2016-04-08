@@ -4,6 +4,7 @@
 
   {{question-details question=model destroyQuestion="destroyQuestion" deleteAnswer="deleteAnswer" edit="edit"}}
 
-
+  {{#link-to 'index'}}<button class="btn question-details">Back to Categories</button>{{/link-to}}
+  
   {{new-answer question=model saveAnswer="saveAnswer"}}
 </div>

@@ -21,6 +21,8 @@ body {
   border-radius: 10px;
   margin-top: 100px;
   margin-bottom: 100px;
+  min-height: 200px;
+  padding: 10px;
 }
 
 .favorites {
@@ -31,6 +33,7 @@ body {
   margin-top: 100px;
   margin-bottom: 100px;
   min-height: 200px;
+  padding: 10px;
 }
 
 .welcome {
@@ -43,6 +46,7 @@ body {
   border: lightblue solid 2px;
   border-radius: 8px;
   margin-top: 20px;
+  padding: 5px;
 }
 .btn {
   background-color: gray;
@@ -79,6 +83,7 @@ label {
   border-radius: 10px;
   margin-top: 100px;
   margin-bottom: 100px;
+  padding: 10px;
 }
 
 .details {
@@ -87,6 +92,10 @@ label {
   border-radius: 8px;
   margin-top: 20px;
   color: #36454f;
+}
+.question-details {
+  margin-top: 40px;
+  float: right;
 }
 .del {
   float: right;
@@ -134,6 +143,10 @@ label {
 .navbar-brand{
  float: none;
   font-size: 1.7em;
+}
+.favorite {
+  font-size: 1.7em;
+  margin-top: -40px;
 }
 .footer-link {
   text-align: center;

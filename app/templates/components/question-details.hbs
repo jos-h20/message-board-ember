@@ -10,7 +10,6 @@
     <p><button {{action 'addToFavorites' question}}>Add to Favorites</button></p>
   </div>
 
-
   {{#each sortedAnswers as |answer|}}
-  {{answer-tile answer=answer deleteAnswer="deleteAnswer"}}
+    {{answer-tile answer=answer deleteAnswer="deleteAnswer"}}
   {{/each}}

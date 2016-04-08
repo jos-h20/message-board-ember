@@ -2,7 +2,7 @@
   {{#each favoriteQuestions.questions as |question|}}
   <h4 class="questions">{{#link-to 'question' question.id}}Question:   {{question.content}}{{/link-to}}
   </h4>{{/each}}
-
-  {{else}}
-  <h3>You haven't chosen any yet.</h3><h4>Read through the questions and pick some you like.</h4>
+{{else}}
+  <h3>You haven't chosen any yet.</h3>
+  <h4>Read through the questions and pick some you like.</h4>
 {{/if}}

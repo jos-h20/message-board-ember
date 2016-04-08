@@ -3,20 +3,26 @@
   <form>
     <div class='form-group'>
       <label for='author'>Author:</label>
-      {{input value=author id='author'}}<br>
+      {{input value=author id='author'}}
+    </div>
+    <div class='form-group'>
       <label for='content'>Question:</label>
-      {{textarea value=content id='content'}}<br>
+      {{textarea value=content id='content'}}
+    </div>
+    <div class='form-group'>
       <label for='notes'>Notes:</label>
       {{input value=notes id='notes'}}
+    </div>
+    <div class='form-group'>
       <label for='category'>Category:</label>
-      <!-- {{input value=category id='category'}} -->
       {{#x-select value=category id='category'}}
         {{#x-option value="nature"}}Nature{{/x-option}}
         {{#x-option value='philosophy'}}Philosophy{{/x-option}}
+        {{#x-option value='art'}}Art{{/x-option}}
       {{/x-select}}
     </div>
     <button class="btn saveQuestion" {{action 'saveQuestion'}}>Save</button>
   </form>
 {{else}}
-<button class="btn" {{action 'newQuestionForm'}}>Ask A Question</button>
+  <button class="btn" {{action 'newQuestionForm'}}>Ask A Question</button>
 {{/if}}

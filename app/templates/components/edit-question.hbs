@@ -20,7 +20,11 @@
 
         <div class="form-group">
           <label for="category">Category:</label>
-          {{input value=category id="category" placeholder=question.category}}
+          {{#x-select value=category id='category' placeholder=question.category}}
+            {{#x-option value="nature"}}Nature{{/x-option}}
+            {{#x-option value='philosophy'}}Philosophy{{/x-option}}
+            {{#x-option value='art'}}Art{{/x-option}}
+          {{/x-select}}
         </div>
 
         <button class="btn"{{action 'edit' question}}>Save</button>
