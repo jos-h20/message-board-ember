@@ -2,6 +2,7 @@
   <div class="details">
     <button class="btn del"{{action 'delete' question}}>Delete Question</button>
     {{edit-question question=question edit="edit"}}
+    <h4>Category: {{question.category}}</h4>
     <h4>Author: <em>{{question.author}}</em></h4>
     <h3>Question: {{question.content}}</h3>
     <h4>Notes: {{question.notes}}.</h4>

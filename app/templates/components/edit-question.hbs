@@ -18,6 +18,11 @@
           {{input value=notes id="notes" placeholder=question.notes}}
         </div>
 
+        <div class="form-group">
+          <label for="category">Category:</label>
+          {{input value=category id="category" placeholder=question.category}}
+        </div>
+
         <button class="btn"{{action 'edit' question}}>Save</button>
       </form>
     </div>
