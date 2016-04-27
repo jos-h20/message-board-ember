@@ -10,6 +10,7 @@ Users can enter questions. They can search questions by category. They can edit 
 
 ## Quick Look 
 * http://jos-h20.github.io/message-board-ember
+
 ## Setup/Installation Requirements
 
 ### You will need git, npm, Ember CLI, and bower to be installed on your computer.
